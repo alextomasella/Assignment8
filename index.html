@@ -9,36 +9,77 @@
     <link rel="stylesheet" href ="./css/style.css">
 </head>
 <body>
-    <h1 class="text-center mt-4">YOUR QUIZ TITLE HERE</h1>
+    <h1 class="text-center mt-4">What season of the year are you?</h1>
     
     <!-- Start quiz element -->
     <div class="container d-flex justify-content-center" id="question-1">
       <div class="card my-4 p-4 question-block" style="width: 75%;">
-        <h4 class="mb-3">YOUR QUIZ QUESTION HERE</h4>
+        <h4 class="mb-3">What is your ideal weekend?</h4>
         <div class="row g-2">
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">ANSWER CHOICE A</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="3" data-answer="Summer">Relaxing at the beach</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">ANSWER CHOICE B</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="4" data-answer="Winter">Cozying up by the fireplace</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">ANSWER CHOICE C</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="1" data-answer="Spring">Enjoying a picnic in the park</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">ANSWER CHOICE D</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="2" data-answer="Fall">Going for a hike in the woods</button>
           </div>
         </div>
       </div>
     </div>
 
-    
-    
     <!-- End quiz element -->
 
-    <!-- Add more quiz elements here -->
+    <!-- Start quiz element -->
+    <div class="container d-flex justify-content-center" id="question-2">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">What is your favorite type of weather?</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="3" data-answer="Summer">Sunny and warm</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="4" data-answer="Winter">Snowy and cold</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="1" data-answer="Spring">Rainy and fresh</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="2" data-answer="Fall">Cool and breezy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End quiz element -->
 
+        <!-- Start quiz element -->
+    <div class="container d-flex justify-content-center" id="question-3">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">What is your favorite color?</h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="3" data-answer="Summer">Yellow</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="4" data-answer="Winter">Blue</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="1" data-answer="Spring">Green</button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-buttonid="2" data-answer="Fall">Orange</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End quiz element -->
 
+    <!-- Connect to your script file here -->
+    <script src="./js/script.js"></script>
 
     <div class="container d-flex justify-content-center">
       <button id="show-result" class="btn btn-success my-4">Show Results</button>
@@ -51,7 +92,5 @@
       </div>
     </div>
     
-    <!-- Connect to your script file here -->
-     <script src = "./js/script.js"></script>
 </body>
 </html>
