@@ -48,3 +48,4 @@ showResultBtn.addEventListener("click", function() {
   resultContainer.style.display = "block";
   resultText.textContent = `The season you are is ${result}!`;
 });
+
